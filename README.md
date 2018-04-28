@@ -3,6 +3,7 @@ This is the sdk to install tensorflow and caffe2 in the Nvidia tx2.
 If you have already installed some software, e.g. python, please skip that step.
 
 Install Tensorflow:
+
 step 1. install pip, python2.7 and numpy: 
 
 chmod +x step1_install_dependency.sh
