@@ -43,3 +43,45 @@ sudo ./step5_install_tf.sh
 Valid your installation:
 
 python test.py
+
+
+Install Caffe2:
+step 1. install pip, python2.7 and numpy: 
+
+chmod +x step1_install_dependencies.sh
+
+sudo ./step1_install_dependencies.sh
+
+
+step2. install cuda
+
+chmod +x step3_install_cuda.sh
+
+sudo ./step3_install_cuda.sh
+
+
+step4. install nivida version
+Note that you should replace the version here with your own hardware version
+
+sudo apt-get install -y nvidia-version-*
+
+step5. install cudnn
+
+chmod +x step5_install_cudnn.sh
+
+sudo ./step5_install_cudnn.sh
+
+step6. install caffe2
+
+chmod +x step6_install_caffe2.sh
+
+sudo ./step6_install_caffe2.sh
+
+
+Validate your installation:
+
+chmod +x test.sh
+sudo ./test.sh
+step4. install docker
+
+chmod +x step4_install_docker.sh
