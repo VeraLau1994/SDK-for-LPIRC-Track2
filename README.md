@@ -23,22 +23,23 @@ chmod +x step3_install_cuda.sh
 sudo ./step3_install_cuda.sh
 
 step4. install nivida version
+
 Note that you should replace the version here with your own hardware version
 
 sudo apt-get install -y nvidia-version-*
 
-step4. install docker
+step5. install docker
 
-chmod +x step4_install_docker.sh
+chmod +x step5_install_docker.sh
 
-sudo ./step4_install_docker.sh
+sudo ./step5_install_docker.sh
 
 
-step5. install tensorflow
+step6. install tensorflow
 
-chmod +x step5_install_tf.sh
+chmod +x step6_install_tf.sh
 
-sudo ./step5_install_tf.sh
+sudo ./step6_install_tf.sh
 
 Valid your installation:
 
